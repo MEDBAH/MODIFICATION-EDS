@@ -5,6 +5,19 @@ body{
     width: 100%;
     height:100vh;
 }
+@font-face {
+    font-family: miso-bold;
+    src: url(../police/miso/miso-bold.ttf);
+}
+@font-face {
+    font-family: miso-regular;
+    src: url(../police/miso/miso-regular.ttf);
+}
+
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
 .left{
       padding: 0; 
 }
@@ -31,4 +44,53 @@ body{
 }
 .main-menu a{
     color:#F02A2A;
+}
+.header{
+    background-color:#F02A2A;
+    color: #ffffff;
+   height:250px;
+}
+.mobile-icon {
+    display: none;
+}
+.container-fluid .navigator{
+    font-size:1.5rem;
+    padding-left:5rem;
+    padding: 0;
+}
+.container-fluid .navigator .ecole-solidaire{
+    padding-top:2rem;
+}
+.container-fluid .navigator .para1{
+    border-bottom: 1px solid #FFFFFF; 
+    color: #FFF121;
+    display: inline-block;
+    padding-bottom:0rem;
+    font-family: miso-bold;
+    font-size: 2.9rem;
+
+}
+.container-fluid .navigator .para2{
+    padding-bottom:1rem;
+    font-size: 1.9rem;
+    font-family:miso-regular;
+}
+.container-fluid img{
+    height:12rem;
+    padding-left: 6rem;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.flex .savoir{
+    padding:3rem;
+    padding-right: 0;
+    font-family: miso-bold;
+    font-size:2rem;
+    padding-bottom:0;
+}
+
+.container-fluid .pouvoir{
+    color: #FFF121;
 }
