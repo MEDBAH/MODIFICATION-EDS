@@ -4,6 +4,7 @@ body{
     background-size:100%,cover;
     width: 100%;
     height:100vh;
+    
 }
 @font-face {
     font-family: miso-bold;
@@ -18,13 +19,14 @@ body{
     padding: 0;
     margin: 0;
 }
+
 .left{
-      padding: 0; 
+      padding: 0;
 }
 .main-menu{
     display: flex;
     justify-content: flex-end;
-     background-color:#EBEBEB;
+     background-color: #EBEBEB;
      margin:0;
      padding-right: 4rem;
       
@@ -44,22 +46,27 @@ body{
 }
 .main-menu a{
     color:#F02A2A;
+   
 }
-.header{
-    background-color:#F02A2A;
-    color: #ffffff;
-   height:250px;
-}
+
 .mobile-icon {
     display: none;
 }
+.container-fluid{
+     background-color:#F02A2A;
+    color: #ffffff;
+   padding:0;
+}
 .container-fluid .navigator{
-    font-size:1.5rem;
+    
     padding-left:5rem;
     padding: 0;
 }
+.navigator{
+    text-align: center;
+}
 .container-fluid .navigator .ecole-solidaire{
-    padding-top:2rem;
+    padding-top:1rem;
 }
 .container-fluid .navigator .para1{
     border-bottom: 1px solid #FFFFFF; 
@@ -67,30 +74,211 @@ body{
     display: inline-block;
     padding-bottom:0rem;
     font-family: miso-bold;
-    font-size: 2.9rem;
+    font-size: 3.7rem;
 
 }
 .container-fluid .navigator .para2{
     padding-bottom:1rem;
-    font-size: 1.9rem;
+    font-size:2.4rem;
     font-family:miso-regular;
+    margin-left:0.5rem;
 }
 .container-fluid img{
     height:12rem;
     padding-left: 6rem;
     padding: 0;
+    padding-top: 1rem;
+}
+.container-fluid .pouvoir{
+    color: #FFF121;
+}
+.ecole-solidaire{
+    padding-left:5rem;
 }
 .flex{
     display: flex;
 }
 .flex .savoir{
-    padding:3rem;
-    padding-right: 0;
-    font-family: miso-bold;
-    font-size:2rem;
+
+    font-family: miso-regula;
+    font-size:2.2rem;
     padding-bottom:0;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+.intro{
+    background-color: #EBEBEB;
+    padding-bottom: 1rem;
+   
+}
+.intro h2{
+    padding: 1.5rem;
+    color: #F02A2A;
+    padding-bottom:1rem;
+    padding-top: 1rem;
+    font-family: miso-bold;
+}
+.intro p{
+    
+     padding: 0 1.5rem;
+        
+}footer {
+    width: 100%;
+    text-align: left;
+    background-color: #EBEBEB;
+    line-height:7rem;
+    bottom: 0;
+    position:fixed;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+footer ul li {
+    padding-left: 1rem;
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 6.5rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+footer .sirius {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 4rem;
+    float: right;
+}
+/*CSS DU CONTENUE PARAGRAPHE*/
+
+.container p{
+    text-align: justify;  
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #EBEBEB;
+    
+}
+h1{
+    font-style: normal;
+    font-size: auto;
+    font-family:miso-bold;
+    margin-top: 2rem;
+    text-align: center;
+    color:white;
+   
+}
+.description {
+    margin: 2rem 0;
+}
+.description-image {
+    width: 23rem;
+    height: 30rem;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 2rem;
+
+
+}
+.last-para{
+    margin-bottom: 9rem;
+}
+/*FIN CSS DU CONTENUE PARAGRAPHE*/
+
+/*VERSION MOBILE*/
+@media only screen and (max-width:770px){
+    body{
+
+    font-size:15px;
+    overflow-x:hidden;
+    background: url(../IMAGE/9061673.png)no-repeat center top fixed;
+    background-size:50rem 50rem,cover;
+    width: 100%;
+    height:100%;
+}
+    .main-menu{
+     top: 10%;
+     left: 13%;
+     z-index: 1000;
+     position: fixed;
+     display: none;
+     background-color:#EBEBEB;
+     
+    }
+
+    .main-menu li{
+        display:block;
+        padding-left:0;
+    }
+    .main-menu  a{
+        color:#F02A2A;
+        padding:  0.3rem;
+        margin-right: 8rem;
+        display: block;
+
+    }
+    .main-menu a:hover{
+        
+        background-color:#FFF121;
+        text-decoration: none;
+        margin-right: 8rem;
+        padding-right: 17rem; 
+
+    }
+    .mobile-icon{
+        font-size:2rem;
+        display: inline-block;
+        color: black;
+        position: fixed;
+        padding:1rem;
+        cursor: pointer;
+        z-index: 1000;
+
+    }
+    .container-fluid .navigator .para1{
+        border-bottom: 2px solid #FFFFFF; 
+        color: #FFF121;
+        display: inline-block;
+        padding-bottom:0rem;
+        font-family: miso-bold;
+        font-size: 2.4rem;/*CHANGEMENT*/
+
+    }
+    .container-fluid .navigator .para2{
+        padding-bottom:0;
+        font-size: 1.6rem;
+        font-family:miso-regular;
+    }
+    .container-fluid img{
+        height: 9rem;
+        padding-left: 6rem;
+
+    }
+    .flex .savoir{
+
+        font-family: miso-regula;
+        font-size:1.4rem;
+        padding-bottom:0;
+        padding-top: 1rem;
+        margin-left: 3rem;
+    }
+    footer {
+    width: 100%;
+    text-align: left;
+    background-color: #EBEBEB;
+    line-height: 0rem;
+    
+}
+    footer .sirius {
+        border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
 }
 
-.container-fluid .pouvoir{
-    color: #FFF121;
-}
