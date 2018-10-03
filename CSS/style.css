@@ -211,7 +211,7 @@ footer .sirius {
 
 /*CSS DU CONTENUE PARAGRAPHE*/
 .container .presentation{
-    background-color:rgba(255, 255, 255, 0.3);
+    background-color:rgba(255, 255, 255, 0.75);
 }
 
 h1{
@@ -219,6 +219,7 @@ h1{
     font-family:miso-bold;
     margin-top: 2rem;
     text-align: center;
+    color: #FFFFFF;
     
    
 }
@@ -240,7 +241,7 @@ h1{
 }
 /*FIN CSS DU CONTENUE PARAGRAPHE*/
 
-/*FIN CSS DU CONTENUE CONTACT*/
+/*DEBUT CSS DU CONTENUE CONTACT*/
 
 form{
     margin-top: 50px;
@@ -276,6 +277,11 @@ form .submit{
 form .submit:hover{
     background: #FFF121;
     cursor: pointer;
+}
+.contact-map{
+    padding-bottom: 10rem;
+    text-align: center;
+    padding-left: 19rem;
 }
 /*FIN CSS DU CONTENUE CONTACT*/
 
