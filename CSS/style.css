@@ -288,7 +288,7 @@ form .submit:hover{
 /*VERSION MOBILE*/
 @media only screen and (max-width:770px){
   body{
-    background: url(../image/hands.jpg)no-repeat center fixed;
+    background: url(../image/background.JPG)no-repeat center fixed;
     font-size:15px;
     background-size:100%,cover;
     width: 100%;
